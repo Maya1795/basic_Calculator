@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.demo2.CalculatorController"
+          hgap="5" vgap="5" style="-fx-background-color: #D3D3D3;">
+
+    <!-- Display at the top -->
+    <TextField fx:id="display" editable="false" style="-fx-font-size: 20; -fx-text-alignment: right;
+                -fx-text-fill: green; -fx-pref-width: 320;" GridPane.columnSpan="4" />
+
+    <!-- Buttons -->
+    <Button text="7" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="8" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="9" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="/" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+
+    <!-- Additional Buttons -->
+    <Button text="4" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="5" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="6" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="*" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+
+    <Button text="1" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="2" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="3" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="-" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+
+    <Button text="0" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="." style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="=" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="+" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+
+    <Button text="(" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text=")" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="C" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+    <Button text="Undo" style="-fx-font-size: 18; -fx-pref-width: 80; -fx-pref-height: 100;
+                            -fx-background-color: white; -fx-text-fill: green;" onAction="#handleButtonClick"/>
+
+</GridPane>
